@@ -1,0 +1,22 @@
+[package]
+name = "pipedream"
+description = "a straightforward asset pipeline and registry, modeled after UE4"
+version = "0.0.1"
+authors = ["trashbyte <github@trashbyte.io>"]
+edition = "2018"
+license = "MIT"
+categories = ["game-development", "multimedia", "rendering::data-formats"]
+keywords = ["asset", "pipeline", "registry"]
+repository = "https://github.com/trashbyte/pipedream"
+
+[dependencies]
+bitflags = "1.2.1"
+chrono = "0.4.10"
+vulkano = "0.16.0"
+walkdir = "2.2.9"
+hashbrown = "0.6.2"
+image = "0.22.3"
+parking_lot = "0.10.0"
+rand = "0.7.2"
+itertools = "0.8.2"
+toolbelt = "0.0.2"
